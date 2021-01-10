@@ -20,12 +20,14 @@ vue ui
 ### To help with that.
 Vuex allows us to divide our store into modules. Each module can contain its own state, mutations, actions, getters, and even nested modules - it's fractal all the way down:
 
+```
 const moduleA = {
   state: () => ({ ... }),
   mutations: { ... },
   actions: { ... },
   getters: { ... }
 }
+```
 
 ### Import the modules files after creating the modules.js
 import tareas from '../modules/tareas'
